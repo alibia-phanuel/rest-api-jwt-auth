@@ -1,0 +1,36 @@
+{
+  "name": "rest-api-jwt-auth",
+  "version": "1.0.0",
+  "description": "API REST sécurisée avec authentification JWT, autorisation, refresh tokens, contrôle d’accès par rôles (RBAC) et authentification à deux facteurs (2FA).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alibia-phanuel/rest-api-jwt-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alibia-phanuel/rest-api-jwt-auth/issues"
+  },
+  "homepage": "https://github.com/alibia-phanuel/rest-api-jwt-auth#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nedb-promises": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  }
+}
