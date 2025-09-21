@@ -1,5 +1,1 @@
-{"name":"Alibia","email":"alibia@testes.com","password":"$2b$10$GLHuMSoJvzsTprpPY8sJ3ecBH1RLYV4sOndpZx/slv1WmQ0rg.Iu.","_id":"0pPNQYi8MRPQebXD"}
-{"name":"Alibia","email":"alibia@test.com","password":"$2b$10$g1YNJZ4cWk7yPZ0qkadCWu5tfImzn60gBv8yZLg/fVo/FmxIf/83W","_id":"ADZmyS6h4XQYe5fS"}
-{"name":"Alibia","email":"alibia@teste.com","password":"$2b$10$7LOC5ISAOZd4ROocqOWNpulU/gmUfTH6Wk9mU8DAI.iw7Wndxu2Va","_id":"E73AqHEsOBQCGvWz"}
-{"name":"TestUser","email":"user@test.com","password":"$2b$10$nRunffQOyGagTOCctO/3Dep.9PlCvmK7f/huAIRJZ0Dz.GBOg0IPq","role":"admin","_id":"XbT4cLBI6rRpjJX1"}
-{"name":"TestUser","email":"user@test2.com","password":"$2b$10$KierGYtguGKkzW4MLWACEemAuxvTPH32MpiWCNgO5lyUnRyoexVl6","role":"moderator","_id":"EqvbVJYfbhuhzN2b"}
+{"name":"Alibia","email":"alibia@testes.com","password":"$2b$10$p/wDRNpmqn71j8TMlv2sgu9FQwOrucC6VSM71RFyJ3hcIC4e5bCSq","role":"member","twoFaEnabled":true,"twoFaSecret":"I44FAYTLJEJFEN36","_id":"Szsv3HMDlFhEO7qA"}

@@ -6,10 +6,20 @@ export interface User {
   email: string;
   password: string;
   role?: "admin" | "moderator" | "user"; // ⚡ roles possibles
+  twoFaEnabled: boolean; // ✅ camelCase recommandé
+  twoFaSecret: string | null;
 }
 
 const users = (Datastore as any).create({
   filename: "users.db",
+  autoload: true,
+});
+export const userRefreshTokenSecre = (Datastore as any).create({
+  filename: "userRefreshTokenSecre.db",
+  autoload: true,
+});
+export const userInvalidTokenSecre = (Datastore as any).create({
+  filename: "userInvalidTokenSecre.db",
   autoload: true,
 });
 
